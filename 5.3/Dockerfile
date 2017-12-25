@@ -5,7 +5,7 @@ FROM wodby/php:${FROM_TAG}
 ENV WODBY_DIR_FILES="/mnt/files" \
     WODBY_DIR_CONF="/var/www/conf" \
     \
-    DRUSH_VER="7.4.0" \
+    DRUSH_VER="6.2.0" \
     \
     PHP_ALWAYS_POPULATE_RAW_POST_DATA="-1" \
     PHP_MBSTRING_ENCODING_TRANSLATION="Off" \
